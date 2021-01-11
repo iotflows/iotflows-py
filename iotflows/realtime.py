@@ -13,8 +13,6 @@
 # limitations under the License.
 
 import time, threading
-import uuid, base64
-import os, subprocess, signal, sys
 import ssl, json
 import paho.mqtt.client as paho # need to be installed: sudo pip3 install paho-mqtt
 import requests

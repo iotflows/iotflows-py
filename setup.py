@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib2.Path(__file__).parent
 
-VERSION = '1.1.2'
+VERSION = '1.1.5'
 PACKAGE_NAME = 'iotflows'
 AUTHOR = 'IoTFLows Inc'
 AUTHOR_EMAIL = 'info@iotflows.com'
@@ -15,8 +15,16 @@ LONG_DESCRIPTION = (HERE / "README.md").read_text()
 LONG_DESC_TYPE = "text/markdown"
 
 INSTALL_REQUIRES = [
-      'numpy',
-      'pandas'
+      'pathlib2',
+      'setuptools',
+      'time', 
+      'threading', 
+      'ssl', 
+      'json', 
+      'paho', 
+      'requests', 
+      'base64',
+      're'
 ]
 
 setup(name=PACKAGE_NAME,

@@ -11,11 +11,13 @@ With this tool you can:
 4. Define cloud actions that can be called from other IoT devices/web applications.
 
 ## Installation
-Use `pip` to install the iotflows python module:
+Use `pip3` to install the iotflows python module:
 
 ```
-pip3 install iotflows-py
+sudo pip3 install iotflows
 ```
+
+Note: only Python3 is supported for this module.
 
 ## Usage
 
