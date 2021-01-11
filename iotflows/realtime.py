@@ -14,7 +14,7 @@
 
 import time, threading
 import ssl, json
-import paho.mqtt.client as paho # need to be installed: sudo pip3 install paho-mqtt
+import paho.mqtt.client as paho 
 import requests
 from base64 import b64encode
 import re
