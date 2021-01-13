@@ -13,6 +13,11 @@ With this tool you can:
 ## Installation
 Use `pip3` to install the iotflows python module:
 
+### Prerequisite
+```
+sudo pip3 install pathlib2
+```
+
 ```
 sudo pip3 install iotflows
 ```
