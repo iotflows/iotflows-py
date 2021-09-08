@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 
 HERE = pathlib2.Path(__file__).parent
 
-VERSION = '1.1.10'
+VERSION = '1.1.12'
 PACKAGE_NAME = 'iotflows'
-AUTHOR = 'IoTFLows Inc'
+AUTHOR = 'IoTFlows Inc'
 AUTHOR_EMAIL = 'info@iotflows.com'
 URL = 'https://github.com/iotflows/iotflows-python'
 
